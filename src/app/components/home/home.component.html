@@ -1,0 +1,4 @@
+<app-loading *ngIf="loading"></app-loading>
+<app-errores *ngIf="error" [texto]="mensajeError"></app-errores>
+
+<app-tarjetas [items]="newReleases"></app-tarjetas>
